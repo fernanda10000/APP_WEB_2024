@@ -1,0 +1,104 @@
+<<<<<<< HEAD
+QUE ES  HTLM?
+HTML (HyperText Markup Language) es el lenguaje estándar utilizado para crear y estructurar páginas web. No es un lenguaje de programación, sino un lenguaje de marcado, lo que significa que su principal función es organizar y definir el contenido de una página web mediante etiquetas.
+
+
+¿COMO FUNCIONA?
+Etiquetas (tags): HTML usa etiquetas que indican al navegador cómo debe mostrar ciertos elementos. Cada etiqueta está escrita entre los signos de "menor que" < y "mayor que" >, y suelen tener una etiqueta de apertura y otra de cierre. La etiqueta de cierre se diferencia por incluir una barra inclinada / antes del nombre de la etiqueta. Por ejemplo:
+
+html
+Copiar código
+<p>Este es un párrafo</p>
+Estructura básica de un documento HTML: Un documento HTML tiene una estructura básica que incluye algunas etiquetas esenciales como:
+
+html
+Copiar código
+<!DOCTYPE html> <!-- Declara el tipo de documento -->
+<html>          <!-- Comienza el documento HTML -->
+<head>          <!-- Contiene información sobre el documento -->
+  <title>Título de la página</title>
+</head>
+<body>          <!-- Contiene el contenido visible de la página -->
+  <h1>Este es un encabezado</h1>
+  <p>Este es un párrafo</p>
+</body>
+</html>
+<!DOCTYPE html>: Indica al navegador que se trata de un documento HTML5.
+<html>: Marca el inicio del contenido HTML.
+<head>: Contiene metadatos sobre la página (información que no es visible en la página).
+<body>: Contiene el contenido visible de la página, como textos, imágenes, enlaces, etc.
+Atributos: Las etiquetas HTML pueden tener atributos, que son características adicionales para modificar el comportamiento o la apariencia de un elemento. Por ejemplo:
+
+html
+Copiar código
+<a href="https://www.google.com">Enlace a Google</a>
+El atributo href en la etiqueta <a> indica el destino del enlace.
+Renderizado: Los navegadores web (como Chrome, Firefox, etc.) interpretan el código HTML y muestran el contenido de manera visual. Cuando abres una página web, el navegador lee el archivo HTML, interpreta las etiquetas y las transforma en lo que ves: texto, imágenes, enlaces, etc.
+
+Ejemplo de página simple:
+html
+Copiar código
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi primera página</title>
+</head>
+<body>
+  <h1>Hola Mundo</h1>
+  <p>Este es mi primer sitio web usando HTML.</p>
+  <a href="https://www.ejemplo.com">Visita mi página</a>
+</body>
+</html>
+=======
+QUE ES  HTLM?
+HTML (HyperText Markup Language) es el lenguaje estándar utilizado para crear y estructurar páginas web. No es un lenguaje de programación, sino un lenguaje de marcado, lo que significa que su principal función es organizar y definir el contenido de una página web mediante etiquetas.
+
+
+¿COMO FUNCIONA?
+Etiquetas (tags): HTML usa etiquetas que indican al navegador cómo debe mostrar ciertos elementos. Cada etiqueta está escrita entre los signos de "menor que" < y "mayor que" >, y suelen tener una etiqueta de apertura y otra de cierre. La etiqueta de cierre se diferencia por incluir una barra inclinada / antes del nombre de la etiqueta. Por ejemplo:
+
+html
+Copiar código
+<p>Este es un párrafo</p>
+Estructura básica de un documento HTML: Un documento HTML tiene una estructura básica que incluye algunas etiquetas esenciales como:
+
+html
+Copiar código
+<!DOCTYPE html> <!-- Declara el tipo de documento -->
+<html>          <!-- Comienza el documento HTML -->
+<head>          <!-- Contiene información sobre el documento -->
+  <title>Título de la página</title>
+</head>
+<body>          <!-- Contiene el contenido visible de la página -->
+  <h1>Este es un encabezado</h1>
+  <p>Este es un párrafo</p>
+</body>
+</html>
+<!DOCTYPE html>: Indica al navegador que se trata de un documento HTML5.
+<html>: Marca el inicio del contenido HTML.
+<head>: Contiene metadatos sobre la página (información que no es visible en la página).
+<body>: Contiene el contenido visible de la página, como textos, imágenes, enlaces, etc.
+Atributos: Las etiquetas HTML pueden tener atributos, que son características adicionales para modificar el comportamiento o la apariencia de un elemento. Por ejemplo:
+
+html
+Copiar código
+<a href="https://www.google.com">Enlace a Google</a>
+El atributo href en la etiqueta <a> indica el destino del enlace.
+Renderizado: Los navegadores web (como Chrome, Firefox, etc.) interpretan el código HTML y muestran el contenido de manera visual. Cuando abres una página web, el navegador lee el archivo HTML, interpreta las etiquetas y las transforma en lo que ves: texto, imágenes, enlaces, etc.
+
+Ejemplo de página simple:
+html
+Copiar código
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi primera página</title>
+</head>
+<body>
+  <h1>Hola Mundo</h1>
+  <p>Este es mi primer sitio web usando HTML.</p>
+  <a href="https://www.ejemplo.com">Visita mi página</a>
+</body>
+</html>
+>>>>>>> 2d15fa2a092ad43c272d646966bf81ab6d1592fe
+En resumen, HTML es la base para crear páginas web y funciona mediante el uso de etiquetas para estructurar y organizar el contenido, el cual luego es interpretado por los navegadores para mostrarlo en forma visual.

@@ -1,0 +1,102 @@
+<<<<<<< HEAD
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(fondo1.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vmax;
+
+    
+}
+
+#contenedor{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1920px;
+
+ }
+
+ h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: normal;
+    font-style: italic
+
+ }
+
+ form{
+    text-align: center;
+    color: white;
+
+ }
+
+ label{
+    font-size: 1vw;
+ }
+
+ .caja1{
+    font-size: 1.5vw;
+    font-weight: bold;
+    width: auto;
+    color: black;
+
+ }
+=======
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(fondo1.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vmax;
+
+    
+}
+
+#contenedor{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1920px;
+
+ }
+
+ h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: normal;
+    font-style: italic
+
+ }
+
+ form{
+    text-align: center;
+    color: white;
+
+ }
+
+ label{
+    font-size: 1vw;
+ }
+
+ .caja1{
+    font-size: 1.5vw;
+    font-weight: bold;
+    width: auto;
+    color: black;
+
+ }
+>>>>>>> 2d15fa2a092ad43c272d646966bf81ab6d1592fe
+ 

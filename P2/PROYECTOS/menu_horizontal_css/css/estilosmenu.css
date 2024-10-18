@@ -1,2 +1,99 @@
 /* Estilos aplicados para crear el menu horizontal en CSS */
+#index{
+    background-color: silver;
+    padding: 2rem;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 6vmin;
+    color: white;
+
+}
+
+header{
+    width: 100%;
+    background-color: skyblue;
+    position: sticky;
+    top: 0;
+
+}
+
+#btn-menu{
+    display: none;
+}
+
+header label{
+    display: none;
+    width: 2rem;
+    height: 2rem;
+    padding: 10px;
+    border-right: 1px solid whitesmoke;
+}
+
+header label:hover{
+    cursor: pointer;
+}
+#Menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    background-color: rgb(96, 140, 138);
+}
+
+#Menu{
+    flex-grow: 1;
+    text-align: center;
+    border: 1px solid white;
+
+}
+
+#Menu li a{
+    flex-grow: 1;
+    text-decoration: none;
+    display: block;
+    padding: 1em 1.5rem;
+    color: white;
+}
+
+#Menu ul li:hover{
+     background-color: black;
+}
+#Menu ul li:active{
+    background-color: cadetblue;
+ 
+}
+
+/*Aplicar estilos con media query para que el menu se oculte y sea desplegable*/
+
+@media screen and (max-width:768px){
+    header label{
+        display: block;
+
+    }
+
+    #Menu{
+        position: absolute;
+        background-color: cadetblue;
+        width: 20%;
+        margin-left: -20%;
+        transition: all 0.5;
+    }
+    #Menu ul{
+        flex-direction: column;
+    }
+    #Menu li{
+        text-align: left;
+        border: 1px solid white;
+    }
+}
+
+/*utilizar el input con la clase menu */
+#btn-menu:checked {
+    margin-left: 0%;
+}
+
+
+
 

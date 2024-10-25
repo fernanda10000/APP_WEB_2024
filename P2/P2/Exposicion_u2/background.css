@@ -1,0 +1,96 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.bg-color{
+    background-color: #ffcccb;
+    padding: 40px;
+    text-align: center;
+    border: 2px solid black;
+
+}
+ 
+.bg-imagen{
+    background-image: url('https://via.placeholder.com/300') ;
+    background-size: cover;
+    padding: 100px;
+    text-align: center;
+    color: white;
+    border: 2px solid black;
+}
+ .bg-repeat{
+    background-image: url('https://via.placeholder.com/50');
+    background-repeat: repeat;
+    padding: 100px;
+    text-align: center;
+    border: 2px solid #333;
+    
+ }
+
+ .bg-position{
+    background-image: url('https://via.placeholder.com/150');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    padding: 100px;
+    text-align: center;
+    border: 2px solid #333;
+
+ }
+
+.bg-size{
+    background-image: url('https://via.placeholder.com/300');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 100px;
+    text-align: center;
+    border: 2px solid #333;
+
+}
+
+.bg-attachment{
+    background-image: url('https://via.placeholder.com/300');
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 100px;
+    text-align: center;
+    border: 2px solid #333;
+
+}
+
+.bg-clip{
+    background-color: #87ceeb;
+    background-clip: content-box;
+    border: 10px solid transparent;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: #ff7f50;
+
+
+}
+.bg-origin{
+    background-image: url('https://via.placeholder.com/300');
+    background-origin: border-box;
+    padding: 50px;
+    text-align: center;
+    border: 20px solid #333;
+
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
